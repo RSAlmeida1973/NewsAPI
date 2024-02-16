@@ -10,8 +10,25 @@
     <title>Simple News App</title>
 </head>
 <body>
-    <h1>Top Headlines</h1>
-    <div id="news"></div>
+    <h1 style="margin:10px">Top Headlines</h1>
+    <select name="Country" id="Country" style="margin:10px">
+        <option value="us">US</option>
+        <option value="br">Brazil</option>
+        <option value="ca">Canada</option>
+        <option value="gb">Great Britain</option>
+        <option value="mx">Mexico</option>
+    </select>
+    <select name="Category" id="Category" style="margin:10px">
+        <option value="general">General</option>
+        <option value="business">Business</option>
+        <option value="entertainment">Entertainment</option>
+        <option value="health">Health</option>
+        <option value="science">Science</option>
+        <option value="sports">Sports</option>
+        <option value="technology">Technology</option>
+    </select>
+    <button type="submit" id="btnUpdate" style="margin:10px">Update</button>
+    <div id="news" style="margin:10px"></div>
     <script src="scripts.js" type="module"></script>
 
     <!-- Bootstrap JavaScript plugins -->
